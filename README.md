@@ -47,7 +47,7 @@ _The hardware in this Machine is as follows_:
 | ELAN 1200 I2C  | [VoodooI2C.kext and its satellite VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C)  |
 | RTL8111/8168/8411  | [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X)  |
 | Qualcomm Atheros AR9565  | [HS80211Family.kext & AirPortAtheros40.kext](https://github.com/FIRSTPLATO/opencore-atheros-kext) |
-| Realtek ALC294  | [AppleALC.kext with layout-id=28|66](https://github.com/acidanthera/AppleALC)  |
+| Realtek ALC294  | [AppleALC.kext using layout-id 28 or 66](https://github.com/acidanthera/AppleALC)  |
 | Microphone  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 | Camera  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 | Brightness Keys  | [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys)  |
@@ -77,13 +77,16 @@ _Not tested_:
 - Sleep (I don't carry this laptop around, always plug an ethernet cable. Feel free to fix sleep function)
 - SD Card Reader (Mine is broken)
 
-# BIOS Settings
+# BIOS Settings (F7 Advanced Mode)
+- **Advanced**
+  - Intel Virtualization Technology ~> Enabled
+  - Graphics Configuration ~>
+  - USB Configuration ~> Legacy USB Support ~> Auto/Disabled
 - **Security**
-  - 
-- **Configuration**
-  - 
-- **Boot Options**
+  - Secure Boot Control ~> Disabled
+- **Boot**
+  - Fast Boot ~> Disabled
+  - CSM Support ~> Disabled
 
 Still writing...
-  - 
  
