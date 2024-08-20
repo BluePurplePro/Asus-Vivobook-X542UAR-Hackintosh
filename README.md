@@ -82,11 +82,10 @@ _Not tested_:
   - Intel Virtualization Technology ~> Enabled
   - Graphics Configuration ~>
   - USB Configuration ~> Legacy USB Support ~> Auto/Disabled
+  - Graphics Configuration ~> DVMT Pre-Allocated ~> 64M
+  - SATA Configuration ~> SATA Mode Selection ~> AHCI
 - **Security**
   - Secure Boot Control ~> Disabled
 - **Boot**
   - Fast Boot ~> Disabled
   - CSM Support ~> Disabled
-
-Still writing...
- 
