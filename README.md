@@ -82,7 +82,6 @@ _Known issue(s)_:
 # BIOS Settings (F7 Advanced Mode)
 - **Advanced**
   - Intel Virtualization Technology ~> Enabled
-  - Graphics Configuration ~>
   - USB Configuration ~> Legacy USB Support ~> Auto/Disabled
   - Graphics Configuration ~> DVMT Pre-Allocated ~> 64M
   - SATA Configuration ~> SATA Mode Selection ~> AHCI
