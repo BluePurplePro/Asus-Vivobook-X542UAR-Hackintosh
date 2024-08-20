@@ -30,8 +30,7 @@ _The hardware in this Machine is as follows_:
 - SD Card Reader: Unknown (and broken)
 - BIOS version: 306
 > [!IMPORTANT]
-> BIOS version must be 306 or older. Lastest BIOS (version 309) has issues booting MacOS using VoodooI2C.kext. [Here's how to downgrade ASUS BIOS using Asus Winflash (using Windows)](https://github.com/BluePurplePro/Asus_X542UAR_Hackintosh/blob/main/Downgrade_ASUS_BIOS_using_Winflash.md)
-
+> BIOS version must be 306 or older. Lastest BIOS (version 309) has issues booting MacOS using VoodooI2C.kext. Luckily, downgrading Asus BIOS is super easy. [Here's the instruction on downgrading ASUS BIOS using Asus Winflash (Windows)](https://github.com/BluePurplePro/Asus_X542UAR_Hackintosh/blob/main/Downgrade_ASUS_BIOS_using_Winflash.md)  
 # Drivers & Essential Kernel Extensions
 | Required Drivers | Essential Kexts |
 | ------------- | ------------- |
@@ -66,7 +65,7 @@ _Working_:
 - Microphone
 
 _Partially working_:
-- Wifi: AR9565 is super slow outside Windows
+- Wifi (AR9565 is super slow outside Windows, the only usable feature is location services. It is recommended to replace AR9565 with Intel card or Fenvi card)
 - Touchpad (Double tap to drag is not reliable, it is recommended to use three finger drag instead)
 
 _Not working_:
