@@ -54,7 +54,7 @@ _The hardware in this Machine is as follows_:
 # Result
 _Working_:
 - iGPU
-- Internal Sound
+- Audio (Both speakers and 3.5mm Audio Jack)
 - Ethernet
 - Bluetooth
 - Keyboard
@@ -75,6 +75,7 @@ _Not working_:
 _Not tested_:
 - Sleep (I don't carry this laptop around, always plug an ethernet cable. Feel free to fix sleep function)
 - SD Card Reader (Mine is broken)
+- HDMI (Audio; 4K@60 output)
 
 _Known issue(s)_:
 - Rebooting from Windows might break Audio in MacOS. The solution is turn off (shutdown) the laptop and turn it on, boot straight to MacOS
