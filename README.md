@@ -76,6 +76,9 @@ _Not tested_:
 - Sleep (I don't carry this laptop around, always plug an ethernet cable. Feel free to fix sleep function)
 - SD Card Reader (Mine is broken)
 
+_Known issue(s)_:
+- Rebooting from Windows might break Audio in MacOS. The solution is turn off (shutdown) the laptop and turn it on, boot straight to MacOS
+
 # BIOS Settings (F7 Advanced Mode)
 - **Advanced**
   - Intel Virtualization Technology ~> Enabled
