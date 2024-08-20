@@ -47,7 +47,6 @@ _The hardware in this Machine is as follows_:
 | RTL8111/8168/8411  | [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X)  |
 | Qualcomm Atheros AR9565  | [HS80211Family.kext & AirPortAtheros40.kext](https://github.com/FIRSTPLATO/opencore-atheros-kext) |
 | Realtek ALC294  | [AppleALC.kext using layout-id 28 or 66](https://github.com/acidanthera/AppleALC)  |
-| Microphone  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 | Camera  | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 | Brightness Keys  | [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys)  |
 
