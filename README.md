@@ -18,6 +18,7 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-8250U (KabyLake-Refresh)
 - GPU: Intel UHD Graphics 620
+- Monitor resolution: 1366x768
 - Mobo: Asus X542UAR (Chipset: Kaby Lake; Southbridge: Coffee Lake-U/Y PCH)
 - Memory: 2x4GB DDR4 2400MHz (Samsung M471A5244CB0-CRC)
 - Drive: M.2 NGFF Vaseky V820/256GB
