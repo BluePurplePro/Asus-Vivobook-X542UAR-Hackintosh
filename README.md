@@ -31,7 +31,7 @@ _The hardware in this Machine is as follows_:
 - SD Card Reader: Unknown (and broken)
 - BIOS version: 306
 > [!IMPORTANT]
-> BIOS version must be 306 or older. Lastest BIOS (version 309) has issues booting MacOS using VoodooI2C.kext. Luckily, downgrading Asus BIOS is super easy. [Here's the instruction on downgrading ASUS BIOS using Asus Winflash (Windows)](https://github.com/BluePurplePro/Asus_X542UAR_Hackintosh/blob/main/Downgrade_ASUS_BIOS_using_Winflash.md)  
+> BIOS version must be 306 or older. Lastest BIOS (version 309) has issues with VoodooI2C.kext. Luckily, downgrading Asus BIOS is super easy. [Here's the instruction on downgrading ASUS BIOS using Asus Winflash (Windows)](https://github.com/BluePurplePro/Asus_X542UAR_Hackintosh/blob/main/Downgrade_ASUS_BIOS_using_Winflash.md)  
 # Drivers & Essential Kernel Extensions
 | Required Drivers | Essential Kexts |
 | ------------- | ------------- |
