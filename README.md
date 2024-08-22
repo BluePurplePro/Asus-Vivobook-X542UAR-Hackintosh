@@ -14,7 +14,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 # Deployment
 To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
 
-# Documentation
+# Hardware
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-8250U (KabyLake-Refresh)
 - GPU: Intel UHD Graphics 620
@@ -32,6 +32,7 @@ _The hardware in this Machine is as follows_:
 - BIOS version: 306
 > [!IMPORTANT]
 > BIOS version must be 306 or older. Lastest BIOS (version 309) has issues with VoodooI2C.kext. Luckily, downgrading Asus BIOS is super easy. [Here's the instruction on downgrading ASUS BIOS using Asus Winflash (Windows)](https://github.com/BluePurplePro/Asus_X542UAR_Hackintosh/blob/main/Downgrade_ASUS_BIOS_using_Winflash.md)  
+
 # Drivers & Essential Kernel Extensions
 | Required Drivers | Essential Kexts |
 | ------------- | ------------- |
