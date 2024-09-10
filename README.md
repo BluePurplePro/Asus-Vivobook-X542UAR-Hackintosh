@@ -80,9 +80,9 @@ _Not tested_:
 - SD Card Reader (Mine is broken)
 - HDMI 4K60fps (I don't have 4K monitor/TV)
 - HDMI Sound
-- 
+
 _Known issue(s)_:
-- Rebooting from Windows might break Audio in MacOS. The solution is turn off (shutdown) the laptop and turn it on, boot straight to MacOS
+- Rebooting to MacOS might break Audio. The solution is turn off (shutdown) the laptop and boot straight to MacOS after turning it on
 
 # BIOS Settings (F7 Advanced Mode)
 - **Advanced**
