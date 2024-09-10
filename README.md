@@ -7,6 +7,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 # Acknowledgements
 - Acidanthera for [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg)
 - Dortania for [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide)
+  - [Opencore Install Guide - Laptop Kaby Lake & Amber Lake Y](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html)
 - Corpnewt for [SSDT Time](https://github.com/corpnewt/SSDTTime) & [UnPlugged](https://github.com/corpnewt/UnPlugged)
 - USBToolbox for [USBToolbox](https://github.com/USBToolBox)
 - And many more awesome people in the hackintosh community
