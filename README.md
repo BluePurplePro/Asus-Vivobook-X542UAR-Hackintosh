@@ -70,7 +70,7 @@ _Working_:
 _Partially working_:
 - Wifi (AR9565 is super slow outside Windows, the only usable feature is location services. It is recommended to replace AR9565 with Intel card or Fenvi card)
 - Touchpad (Double tap to drag is not reliable, it is recommended to use three finger drag instead)
-- Sleep (Sometimes it takes 30s~60s to wake)
+- Sleep (Sometimes it takes 20s~30s to wake)
 
 _Not working_:
 - Airdrop
