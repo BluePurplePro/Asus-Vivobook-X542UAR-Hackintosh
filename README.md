@@ -35,10 +35,15 @@ _The hardware in this Machine is as follows_:
 > BIOS version must be 306 or older. Lastest BIOS (version 309) has issues with VoodooI2C.kext. Luckily, downgrading Asus BIOS is super easy. [Here's the instruction on downgrading ASUS BIOS using Asus Winflash (Windows)](https://github.com/BluePurplePro/Asus_X542UAR_Hackintosh/blob/main/Downgrade_ASUS_BIOS_using_Winflash.md)  
 
 # Drivers & Essential Kernel Extensions
-| Required Drivers | Essential Kexts |
-| ------------- | ------------- |
-| [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) | [Lilu.kext](https://github.com/acidanthera/Lilu) |
-| [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg) | [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) |
+| Required Drivers |
+| ------------- |
+| [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi) |
+| [OpenRuntime.efi](https://github.com/acidanthera/OpenCorePkg) |
+
+| Essential Kexts |
+| ------------- |
+| [Lilu.kext](https://github.com/acidanthera/Lilu) |
+| [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC) |
 
 # Kernel Extensions corresponding to hardware
 | Hardware  | Kext(s) |
